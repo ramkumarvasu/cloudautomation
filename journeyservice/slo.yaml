@@ -10,10 +10,20 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <600
+    - <20
   warning:
   - criteria:
-    - <=800
+    - <=200
+  weight: 1
+  key_sli: false
+  - sli: response_time_p98
+  displayName: ""
+  pass:
+  - criteria:
+    - <20
+  warning:
+  - criteria:
+    - <=200
   weight: 1
   key_sli: false
 - sli: error_rate
@@ -26,9 +36,10 @@ objectives:
   key_sli: false
 - sli: throughput
   displayName: ""
-  pass: []
-  warning: []
-  weight: 0
+  pass:
+  - criteria:
+    - <200
+  weight: 1
   key_sli: false
 total_score:
   pass: 90%
