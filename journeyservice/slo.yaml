@@ -10,20 +10,20 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <20
+    - <200
   warning:
   - criteria:
-    - <=200
+    - <=800
   weight: 1
   key_sli: false
   - sli: response_time_p98
   displayName: ""
   pass:
   - criteria:
-    - <20
+    - <200
   warning:
   - criteria:
-    - <=200
+    - <=800
   weight: 1
   key_sli: false
 - sli: error_rate
