@@ -28,7 +28,9 @@ objectives:
   key_sli: false
 - sli: throughput
   displayName: ""
-  weight: 1
+  pass: []
+  warning: []
+  weight: 0
   key_sli: false
 total_score:
   pass: 90%
