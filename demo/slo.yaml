@@ -15,15 +15,6 @@ objectives:
       warning: []
       weight: 1
       key_sli: false
-    - sli: svc_response_time
-      displayName: ""
-      pass:
-        - criteria:
-            - <+10%
-            - <600
-      warning: []
-      weight: 1
-      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
