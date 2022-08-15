@@ -1,4 +1,4 @@
 spec_version: 0.1.4
 indicators:
-    cpu_usage: ""
-    response_time: ""
+    svc_cpu_usage: ""
+    svc_response_time: ""
