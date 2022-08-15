@@ -6,6 +6,15 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
+    - sli: svc_response_time
+      displayName: ""
+      pass:
+        - criteria:
+            - <+10%
+            - <600
+      warning: []
+      weight: 1
+      key_sli: false
     - sli: svc_cpu_usage
       displayName: ""
       pass:
