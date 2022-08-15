@@ -15,6 +15,15 @@ objectives:
       warning: []
       weight: 1
       key_sli: false
+    - sli: response_time
+      displayName: ""
+      pass:
+        - criteria:
+            - <+10%
+            - <20
+      warning: []
+      weight: 1
+      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
