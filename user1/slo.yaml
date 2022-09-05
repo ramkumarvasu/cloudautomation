@@ -12,6 +12,12 @@ objectives:
       warning: []
       weight: 1
       key_sli: false
+    - sli: perf1
+      displayName: ""
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
