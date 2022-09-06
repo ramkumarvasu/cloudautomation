@@ -1,3 +1,3 @@
 spec_version: 0.1.4
 indicators:
-    service_cpu: metricSelector=builtin:service.cpu.perRequest:splitBy():auto:names
+    service_cpu: MV2;MicroSecond;metricSelector=builtin:service.cpu.perRequest:splitBy():auto:names
