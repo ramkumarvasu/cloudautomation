@@ -16,16 +16,6 @@ objectives:
             - <50
       weight: 1
       key_sli: false
-    - sli: service_rt
-      displayName: ""
-      pass:
-        - criteria:
-            - <2000
-      warning:
-        - criteria:
-            - <5000
-      weight: 1
-      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
