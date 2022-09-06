@@ -16,6 +16,866 @@ objectives:
             - <50
       weight: 1
       key_sli: false
+    - sli: service_rt_easyTravel_Third_Party_Content_Server
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_AuthenticationService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_FinanceService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_CustomerFrontendREST
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:53304
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:53117
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:64058
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_volatile_WebRequest
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:64536
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:64121
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Internal_service
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_AuthenticationService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:51099
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:62164
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:62644
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_JourneyService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.rest.jar_easyTravel_(x*)
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:51190
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_EasytravelService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:54690
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:53182
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:54048
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:53837
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_EasytravelService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_dotNetCommon.RemoteTime
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_CustomerFrontendREST
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Web_Launcher
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:52398
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_VerificationService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:63006
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:51987
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.weblauncher.jar_easyTravel_(x*)
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_easyTravel_Business_Backend
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:63466
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.customer.frontend.jar_easyTravel_(x*)
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:55171
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt__
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:52476
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:62711
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_dotNetFrontend_easyTravel_x64:9000
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_dotNetBackend_easyTravel_x64:9010
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:53657
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_My_booking_service
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Requests_executed_in_background_threads_of_IIS_app_pool_dotNetBackend_easyTravel_x64
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_ConfigurationService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:63634
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_ConfigurationService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:52620
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:55749
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:62052
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_dotNetBackend_easyTravel_x64
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:62764
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:56222
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_easyTravel_Third_Party_Content_Server
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:64606
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:55819
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:63712
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_JourneyService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:56108
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:51849
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:63313
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:63189
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:64474
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:55512
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:54289
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:56155
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_BookingService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:50901
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:57428
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_dotNetFrontend_easyTravel_x64
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_easyTravel_Customer_Frontend
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:59178
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:51798
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:55455
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_BookingService
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:54538
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_CreditCardValidation
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:65118
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_easyTravel_Customer_Frontend
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:54121
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Requests_executed_in_background_threads_of_Code*Service.exe
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:63934
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:55374
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Requests_executed_in_background_threads_of_com.dynatrace.easytravel.business.backend.jar_easyTravel_(x*)
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:54613
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
+    - sli: service_rt_Netty_on_localhost:51419
+      displayName: ""
+      pass:
+        - criteria:
+            - <200
+      warning:
+        - criteria:
+            - <500
+      weight: 1
+      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
