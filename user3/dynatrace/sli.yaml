@@ -1,4 +1,4 @@
 spec_version: 0.1.4
 indicators:
     service_cpu: MV2;MicroSecond;metricSelector=builtin:service.cpu.perRequest:splitBy():auto:names
-    service_rt: ""
+    service_rt: MV2;MicroSecond;entitySelector=type(SERVICE),entityName("CreditCardValidation")&metricSelector=builtin:service.response.server:splitBy("dt.entity.service"):auto:names
