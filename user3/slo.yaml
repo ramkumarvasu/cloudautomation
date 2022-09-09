@@ -16,12 +16,11 @@ objectives:
             - <50
       weight: 1
       key_sli: false
-    - sli: service_rt
+    - sli: response_time
       displayName: ""
       pass:
         - criteria:
             - <2000
-            - <+10%
       warning:
         - criteria:
             - <5000
