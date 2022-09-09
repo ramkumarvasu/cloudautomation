@@ -21,6 +21,7 @@ objectives:
       pass:
         - criteria:
             - <2000
+            - <+10%
       warning:
         - criteria:
             - <5000
