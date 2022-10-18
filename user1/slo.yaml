@@ -6,16 +6,14 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
-    - sli: perf
+    - sli: service_cpu
       displayName: ""
-      pass: []
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: perf1
-      displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - <20
+      warning:
+        - criteria:
+            - <50
       weight: 1
       key_sli: false
 total_score:
