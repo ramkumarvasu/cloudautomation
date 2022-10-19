@@ -1,5 +1,4 @@
 spec_version: 0.1.4
 indicators:
     kpi_rt: ""
-    kpi_rt2: ""
     service_cpu: metricSelector=builtin:host.cpu.idle:splitBy():auto:names
