@@ -1,4 +1,4 @@
 spec_version: 0.1.4
 indicators:
-    responsetime: entitySelector=type(SERVICE),entityName("Requests on localhost:8080")&metricSelector=builtin:service.response.time:splitBy():auto:names
+    responsetime: entitySelector=type(SERVICE),entityName("dotNetFrontend_easyTravel_x64:9000")&metricSelector=builtin:service.response.time:splitBy():auto:names
     service_cpu: metricSelector=builtin:host.cpu.idle:splitBy():auto:names
