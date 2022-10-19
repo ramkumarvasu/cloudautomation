@@ -16,6 +16,17 @@ objectives:
             - <50
       weight: 1
       key_sli: false
+    - sli: kpi_rt
+      displayName: ""
+      pass:
+        - criteria:
+            - <2000
+            - <=+15%
+      warning:
+        - criteria:
+            - <=5000
+      weight: 1
+      key_sli: true
 total_score:
     pass: 90%
     warning: 75%
