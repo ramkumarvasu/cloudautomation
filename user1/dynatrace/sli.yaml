@@ -1,4 +1,5 @@
 spec_version: 0.1.4
 indicators:
     kpi_rt: MV2;MicroSecond;metricSelector=builtin:service.response.time:splitBy():auto:names
+    kpi_rt2: MV2;MicroSecond;metricSelector=builtin:service.response.time:splitBy():auto:names
     service_cpu: metricSelector=builtin:host.cpu.usage:splitBy():auto:names
