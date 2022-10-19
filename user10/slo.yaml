@@ -16,6 +16,16 @@ objectives:
             - <50
       weight: 1
       key_sli: false
+    - sli: responsetime
+      displayName: ""
+      pass:
+        - criteria:
+            - <20
+      warning:
+        - criteria:
+            - <50
+      weight: 1
+      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
