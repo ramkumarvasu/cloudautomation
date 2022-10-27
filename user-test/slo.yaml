@@ -8,8 +8,12 @@ comparison:
 objectives:
     - sli: cpu_util
       displayName: ""
-      pass: []
-      warning: []
+      pass:
+        - criteria:
+            - <4
+      warning:
+        - criteria:
+            - <6
       weight: 1
       key_sli: true
 total_score:
