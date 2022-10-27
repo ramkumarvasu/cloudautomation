@@ -1,0 +1,17 @@
+spec_version: ""
+filter: {}
+comparison:
+    compare_with: single_result
+    include_result_with_score: pass
+    number_of_comparison_results: 1
+    aggregate_function: avg
+objectives:
+    - sli: cpu_util
+      displayName: ""
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: true
+total_score:
+    pass: 90%
+    warning: 75%
