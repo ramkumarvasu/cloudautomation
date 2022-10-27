@@ -5,3 +5,7 @@ metadata:
 spec:
   stages:
     - name: "quality-gate"
+      sequences:
+        - name: "deploy"
+          tasks:
+            - name: "deployment"
