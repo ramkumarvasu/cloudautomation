@@ -8,6 +8,6 @@ spec:
       sequences:
         - name: "deploy"
           tasks:
+            - name: "build"
             - name: "deployment"
-            - name: "evaluation"
 
