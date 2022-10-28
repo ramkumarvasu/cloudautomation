@@ -4,13 +4,6 @@ metadata:
   name: webhook-configuration
 spec:
   webhooks:
-    - type: sh.keptn.event.deployment.triggered
-      requests:
-        - >-
-          curl --request POST http://dynatrace:1197edc464a6c0b7aa5e6d0f72039229db@jenkins.54.242.152.223.nip.io/job/demo-quality-gates-jenkins/job/2.%20Deploy/build
-      subscriptionID: 6e7bccc8-2237-4bf0-8f74-ae36a53d255b
-      sendFinished: false
-      sendStarted: false
     - type: sh.keptn.event.build.triggered
       requests:
         - >-
