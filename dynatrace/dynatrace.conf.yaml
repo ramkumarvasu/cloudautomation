@@ -1,7 +1,6 @@
 ---
 spec_version: '0.1.0'
 dashboard: query
-timeframe: 5m
 attachRules:
   tagRule:
   - meTypes:
