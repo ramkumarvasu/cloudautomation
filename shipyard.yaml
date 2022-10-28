@@ -9,4 +9,5 @@ spec:
         - name: "deploy"
           tasks:
             - name: "deployment"
+            - name: "evaluation"
 
