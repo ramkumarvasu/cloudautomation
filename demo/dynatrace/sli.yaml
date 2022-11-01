@@ -1,5 +1,5 @@
 spec_version: 0.1.4
 indicators:
-    My_new_service-level_availability_objective: SLO;81c169cd-2ffb-3981-806c-6c4bc917ae5f
-    My_new_synthetic_objective: SLO;00db331c-824b-34c5-8099-ff9b8bd7bb11
+    slo_00db331c-824b-34c5-8099-ff9b8bd7bb11: ""
+    slo_81c169cd-2ffb-3981-806c-6c4bc917ae5f: ""
     svc_cpu_usage: metricSelector=builtin:host.cpu.usage:splitBy():avg:names
