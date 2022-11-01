@@ -6,7 +6,7 @@ spec:
   stages:
     - name: "quality-gate"
       sequences:
-        - name: "deploy"
+        - name: "deployment"
           tasks:
             - name: "evaluation"
             - name: "build"
