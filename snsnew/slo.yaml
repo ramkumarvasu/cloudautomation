@@ -6,17 +6,17 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
-    - sli: service_rt
-      displayName: Service Resp
+    - sli: availability_simplenodeservice
+      displayName: ""
       pass:
         - criteria:
-            - <20
+            - '>=99.990000'
       warning:
         - criteria:
-            - <50
+            - '>=99.980000'
       weight: 1
       key_sli: false
-    - sli: availability_simplenodeservice
+    - sli: hourly_stg_perf_simplenodeservice
       displayName: ""
       pass:
         - criteria:
