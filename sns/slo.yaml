@@ -1,4 +1,4 @@
-spec_version: "1.0"
+spec_version: ""
 filter: {}
 comparison:
     compare_with: single_result
@@ -6,39 +6,119 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
-    - sli: response_time_p95
-      displayName: ""
-      pass:
-        - criteria:
-            - <600
-      warning:
-        - criteria:
-            - <=800
-      weight: 1
-      key_sli: false
-    - sli: response_time_p98
-      displayName: ""
-      pass:
-        - criteria:
-            - <800
-      warning:
-        - criteria:
-            - <=1000
-      weight: 1
-      key_sli: false
-    - sli: error_rate
-      displayName: ""
-      pass:
-        - criteria:
-            - <5
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: throughput
-      displayName: ""
+    - sli: graph
+      displayName: Graph
       pass: []
       warning: []
-      weight: 0
+      weight: 1
+      key_sli: false
+    - sli: graph_requests_to_public_networks
+      displayName: Graph (Requests to public networks)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_jnlp_jenkins
+      displayName: Graph (jnlp.jenkins)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_simplenodeservice_simplenode-jenkins-staging
+      displayName: Graph (simplenodeservice.simplenode-jenkins-staging)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_dashboard_ace
+      displayName: Graph (dashboard.ace)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_gitaly_gitlab
+      displayName: Graph (gitaly.gitlab)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_requests_to_unmonitored_hosts
+      displayName: Graph (Requests to unmonitored hosts)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_requests_on_localhost:8080
+      displayName: Graph (Requests on localhost:8080)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_jnlp_jenkins
+      displayName: Graph (jnlp.jenkins)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_jnlp_jenkins
+      displayName: Graph (jnlp.jenkins)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_gitlab-workhorse_gitlab
+      displayName: Graph (gitlab-workhorse.gitlab)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_jenkins_jenkins
+      displayName: Graph (jenkins.jenkins)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_gitaly_gitlab
+      displayName: Graph (gitaly.gitlab)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_opentelemetry-collector_otel
+      displayName: Graph (opentelemetry-collector.otel)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_jenkins_jenkins
+      displayName: Graph (jenkins.jenkins)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_simplenodeservice_simplenode-jenkins-production
+      displayName: Graph (simplenodeservice.simplenode-jenkins-production)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_gitaly_gitlab
+      displayName: Graph (gitaly.gitlab)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_gitaly_gitlab
+      displayName: Graph (gitaly.gitlab)
+      pass: []
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: graph_gitaly_gitlab
+      displayName: Graph (gitaly.gitlab)
+      pass: []
+      warning: []
+      weight: 1
       key_sli: false
 total_score:
     pass: 90%
