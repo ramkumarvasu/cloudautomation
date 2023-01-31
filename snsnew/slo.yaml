@@ -6,24 +6,16 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
-    - sli: availability_simplenodeservice
+    - sli: slo_3d582c52-04f3-3deb-a280-05228c67cd38
       displayName: ""
-      pass:
-        - criteria:
-            - '>=99.990000'
-      warning:
-        - criteria:
-            - '>=99.980000'
+      pass: []
+      warning: []
       weight: 1
       key_sli: false
-    - sli: hourly_stg_perf_simplenodeservice
+    - sli: slo_3659482e-cf77-31c9-8c9a-cac8b6c25d38
       displayName: ""
-      pass:
-        - criteria:
-            - '>=99.990000'
-      warning:
-        - criteria:
-            - '>=99.980000'
+      pass: []
+      warning: []
       weight: 1
       key_sli: false
 total_score:
